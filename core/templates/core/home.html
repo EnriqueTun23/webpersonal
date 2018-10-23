@@ -2,7 +2,15 @@
 {% block title %}
     Home
 {% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg'%}{% endblock %}
+
+
+{% block headers %}
+    <h1>Enrique Tun</h1>
+    <span class="subheading">Ingeniero en Sistemas</span>
+{% endblock %}
+
 {% block content %} 
-<h2>Portada</h2>
-<p>Esto es la portada</p>
+
 {% endblock  %} 
